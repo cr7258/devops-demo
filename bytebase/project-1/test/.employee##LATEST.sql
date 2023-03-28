@@ -71,7 +71,7 @@ CREATE TABLE `title` (
   `emp_no` INT NOT NULL,
   `title` VARCHAR(50) NOT NULL,
   `from_date` DATE NOT NULL,
-  `to_date` DATE DEFAULT NULL,
+  `to_date2` DATE DEFAULT NULL,
   PRIMARY KEY (`emp_no`, `title`, `from_date`),
   CONSTRAINT `title_ibfk_1` FOREIGN KEY (`emp_no`) REFERENCES `employee` (`emp_no`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARACTER SET=UTF8MB4 DEFAULT COLLATE=UTF8MB4_0900_AI_CI;
