@@ -1,4 +1,4 @@
-CREATE TABLE public.seven
+CREATE TABLE seven
 (
    id BIGINT NOT NULL,
    course VARCHAR(255)
